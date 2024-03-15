@@ -45,3 +45,67 @@ nav{
     color: #4b5563;
     font-weight: 600;
 }
+main{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    
+    background-color: #f3f4f6;
+}
+.hero{
+    
+    max-width: 1120px;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    padding: 0 2rem;
+    margin: auto;
+    overflow: hidden;
+
+}
+.heroContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.heroImagesContainer{
+    max-width: 45%;
+    column-count: 4;
+    column-gap: 1rem;
+    margin: -1rem;
+
+
+}
+.heroImagesContainer > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+.emphasis{
+    font-family: Epilogue;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.brown{
+    color: #d97706;
+    
+}
+h1{
+    font-family: Montserrat;
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+hr{
+    border-color: #f59e0b;
+}
+.subtitleHero{
+    color: #64748b;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
