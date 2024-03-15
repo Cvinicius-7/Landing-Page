@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #ffffff;
+  background-color: #f9fafb;
   color: #1f293f;
 }
 html {
@@ -24,125 +24,132 @@ ul {
   gap: 1.5rem;
   color: #6b7280;
 }
-nav{
-    max-width: 1120px;
-    margin: auto;
-    padding: 1.5rem 10rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
+nav {
+  max-width: 1120px;
+  margin: auto;
+  padding: 1.5rem 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo{
-    font-family: teko;
-    font-size: 2rem;
-    font-weight: 600;
-    color: #1f293f;
-    text-transform: uppercase;
+.logo {
+  font-family: teko;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1f293f;
+  text-transform: uppercase;
 }
-.github{
-    color: #4b5563;
-    font-weight: 600;
+.github {
+  color: #4b5563;
+  font-weight: 600;
 }
-main{
-    display: flex;
-    flex-direction: column;
+main {
+  display: flex;
+  flex-direction: column;
 }
-.main{
-    
-    background-color: #f3f4f6;
+.main {
+  background-color: #f3f4f6;
 }
-.hero{
-    
-    max-width: 1120px;
-    height: 60vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 6rem;
-    padding: 0 2rem;
-    margin: auto;
-    overflow: hidden;
-
+.hero {
+  max-width: 1120px;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+  padding: 0 2rem;
+  margin: auto;
+  overflow: hidden;
 }
-.heroContent{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
-.heroImagesContainer{
-    max-width: 45%;
-    column-count: 4;
-    column-gap: 1rem;
-    margin: -1rem;
-
-
+.heroImagesContainer {
+  max-width: 45%;
+  column-count: 4;
+  column-gap: 1rem;
+  margin: -1rem;
 }
 .heroImagesContainer > figure > img {
-    width: 100%;
-    border-radius: 0.5rem;
-
+  width: 100%;
+  border-radius: 0.5rem;
 }
-.emphasis{
-    font-family: Epilogue;
-    font-size: 1rem;
-    font-weight: 500;
-    text-transform: uppercase;
+.emphasis {
+  font-family: Epilogue;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }
-.brown{
-    color: #d97706;
-    
+.brown {
+  color: #d97706;
 }
-h1{
-    font-family: Montserrat;
-    font-size: 3.5rem;
-    font-weight: 800;
+h1 {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  font-weight: 800;
 }
-hr{
-    border-color: #f59e0b;
+hr {
+  border-color: #f59e0b;
 }
-.subtitleHero{
-    color: #64748b;
-    font-family: Inter;
-    font-size: 1.5rem;
-    font-weight: 400;
+.subtitleHero {
+  color: #64748b;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
-.containerButton{
-    width: 100%;
-    max-width: 1120px;
-    margin: auto;
-    transform: translate("0, -50%");
+.containerButton {
+  width: 100%;
+  max-width: 1120px;
+  margin: auto;
+  transform: translate("0, -50%");
 }
-button{
-    border: none;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    background-color: #f59e0b;
+button {
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f59e0b;
 }
-.recipes{
-    display: flex;
-    flex-direction: column;
-    max-width: 1120px;
-    padding: 3rem 2rem;
-    margin: auto;
-
+.recipes {
+  display: flex;
+  flex-direction: column;
+  max-width: 1120px;
+  padding: 3rem 2rem;
+  margin: auto;
 }
-.recipesHeader{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.recipesHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
-.recipesTitle{
-    font-family: Montserrat;
-    font-size: 2rem;
-    font-weight: 700;
-    color: #374151;
+.recipesTitle {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #374151;
 }
-.recipesSubtitle{
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #6b7280;
+.recipesSubtitle {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #6b7280;
+}
+.cardContainer {
+  padding: 0rem 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-basis: 29rem;
 }
