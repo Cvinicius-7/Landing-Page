@@ -19,4 +19,29 @@ a {
 }
 ul {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  color: #6b7280;
+}
+nav{
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    font-family: teko;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1f293f;
+    text-transform: uppercase;
+}
+.github{
+    color: #4b5563;
+    font-weight: 600;
 }
