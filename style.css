@@ -153,3 +153,48 @@ button {
   gap: 2rem;
   flex-basis: 29rem;
 }
+.cardHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+.headerDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.cardTitle{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #374151;
+}
+.cardGrade{
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #9ca3af;
+}
+.description{
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6b7280;
+}
+.author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+.author img{
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+.author span{
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #6b7280;
+}
