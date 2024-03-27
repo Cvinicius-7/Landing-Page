@@ -143,7 +143,8 @@ button {
   flex-direction: row;
   justify-content: space-between;
   gap: 2rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: stretch;
 }
 .card {
   background-color: #ffffff;
@@ -153,7 +154,13 @@ button {
   flex-direction: column;
   flex-basis: 29rem;
   margin-top: 2rem;
-
+  width: 28rem;
+}
+.card:hover{
+    transform: scale(1.02);
+    transition: transform 0.2s;
+    cursor: pointer;
+  
 }
 .cardHeader{
     display: flex;
@@ -201,17 +208,16 @@ button {
     color: #6b7280;
 }
 footer{
-    padding: 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     background-color: #ffffff;
     color: #a8afb9;
     font: Inter;
     font-weight: 500;
     font-size: 1rem;
+    padding: 2rem;
 }
 a:hover{
   color: #2d558a;
   cursor: pointer;
+  
 }
