@@ -91,13 +91,12 @@ h1 {
   font-family: Montserrat;
   font-size: 3.5rem;
   font-weight: 800;
-
 }
 hr {
   border-color: #f59e0b;
 }
 .subtitleHero {
-  color: #64748b; 
+  color: #64748b;
   font-family: Inter;
   font-size: 1.5rem;
   font-weight: 400;
@@ -113,6 +112,12 @@ button {
   padding: 1rem;
   border-radius: 0.5rem;
   background-color: #f59e0b;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.2s;
+  filter: drop-shadow(0 0 0.75rem #f59e0b);
 }
 .recipes {
   display: flex;
@@ -139,7 +144,7 @@ button {
   color: #6b7280;
 }
 .cardContainer {
- display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 2rem;
@@ -156,68 +161,67 @@ button {
   margin-top: 2rem;
   width: 28rem;
 }
-.card:hover{
-    transform: scale(1.02);
-    transition: transform 0.2s;
-    cursor: pointer;
-  
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem #f59e0b);
 }
-.cardHeader{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: end;
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
 }
-.headerDetails{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
+.headerDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
-.cardTitle{
-    font-family: Montserrat;
-    font-weight: 700;
-    font-size: 1.5rem;
-    color: #374151;
+.cardTitle {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #374151;
 }
-.cardGrade{
-    font-family: Inter;
-    font-size: 1rem;
-    font-weight: 500;
-    color: #9ca3af;
+.cardGrade {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #9ca3af;
 }
-.description{
-    font-family: Inter;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #6b7280;
+.description {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6b7280;
 }
-.author{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.5rem;
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
 }
-.author img{
-    border-radius: 20rem;
-    width: 1.5rem;
+.author img {
+  border-radius: 20rem;
+  width: 1.5rem;
 }
-.author span{
-    font-family: Inter;
-    font-size: 1rem;
-    font-weight: 600;
-    color: #6b7280;
+.author span {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #6b7280;
 }
-footer{
-    text-align: center;
-    background-color: #ffffff;
-    color: #a8afb9;
-    font: Inter;
-    font-weight: 500;
-    font-size: 1rem;
-    padding: 2rem;
+footer {
+  text-align: center;
+  background-color: #ffffff;
+  color: #a8afb9;
+  font: Inter;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 2rem;
 }
-a:hover{
+a:hover {
   color: #2d558a;
   cursor: pointer;
-  
 }
