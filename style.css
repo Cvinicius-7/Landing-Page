@@ -139,11 +139,11 @@ button {
   color: #6b7280;
 }
 .cardContainer {
-  padding: 0rem 10rem;
-  display: flex;
+ display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 .card {
   background-color: #ffffff;
@@ -151,9 +151,9 @@ button {
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
   flex-basis: 29rem;
   margin-top: 2rem;
+
 }
 .cardHeader{
     display: flex;
