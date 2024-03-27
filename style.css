@@ -226,3 +226,9 @@ a:hover {
   color: #2d558a;
   cursor: pointer;
 }
+.logo img{
+  width: auto;
+  height: 2rem;
+  padding-top: 0.6rem;
+
+}
