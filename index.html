@@ -10,6 +10,13 @@
       name="description"
       content="Café do Vini - Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!"
     />
+    <script>
+      function scrollToDiv() {
+          
+          var targetDiv = document.getElementById('target');
+          targetDiv.scrollIntoView({ behavior: 'smooth' });
+      }
+      </script>
   </head>
   <body>
     <header>
@@ -52,7 +59,7 @@
         </section>
       </div>
       <section class="containerButton">
-        <button type="button">
+        <button tclass="scroll-btn" onclick="scrollToDiv()">
             <img src="img/chevrons-down.svg" style="border: none;"/>
         </button>
       </section>
@@ -62,7 +69,7 @@
           <h2 class="recipesTitle">Confira as últimas receitas</h2>
           <p class="recipesSubtitle">Dê uma olhada nas receitas mais amadas!</p>
         </header>
-        <div class="cardContainer">
+        <div class="cardContainer" id="target">
           <div class="card">
             <header class="cardHeader">
               <div class="headerDetails">
