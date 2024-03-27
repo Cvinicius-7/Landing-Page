@@ -211,3 +211,7 @@ footer{
     font-weight: 500;
     font-size: 1rem;
 }
+a:hover{
+  color: #2d558a;
+  cursor: pointer;
+}
